@@ -8,5 +8,75 @@
 
   body {
     min-height: 100vh;
-    background: linear-gradient(#fff);
+    background: #5c5c5c;
   }
+
+  /* Header section */
+
+  header {
+    z-index: 1000;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    scale: 2;
+    transition: .5s;
+}
+
+.material-symbols-outlined:hover {
+  scale: 2.3;
+  color: #1d2928;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li {
+  transition: .5s;
+}
+
+header ul li:hover {
+  transform: translateY(-4px);
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  transition: .5s;
+}
+
+header ul li a:hover, 
+header ul li a.active {
+  background: #fff;
+  color: #2b1055;
+}
+
+/* Parallax Section*/
+
+#parallax > * {
+  grid-area: stack;
+}
