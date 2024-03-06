@@ -76,7 +76,30 @@ header ul li a.active {
 }
 
 /* Parallax Section*/
+#parallax {
+  display: grid;
+  grid-template-areas: "stack";
+  min-height: 100vh;
+}
 
 #parallax > * {
   grid-area: stack;
+}
+
+#parallax > img {
+  width: 100%;
+}
+
+.parallax-bg {
+  --parallax-speed: 0;
+
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes parallax {
+  to {
+    transform: translateY(calc(200px * var(--parallax-speed)));
+  }
 }
