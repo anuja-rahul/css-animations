@@ -54,7 +54,7 @@ Array.from(parallax_el)
             top: `${el.offsetHeight / 2 + +el.dataset.distance}px`,
             duration: 3.5,
         },
-        "1"
+        "0"
     );
 });
 
