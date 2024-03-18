@@ -4,5 +4,7 @@
 
 ## Collection of css animations that can be easily implemented in your websites to make them look more visually appealing and dynamic.
 
- - [ ] paralalx_css (not finished)  
  - [x] animate_on_scroll (complete)
+ - [ ] paralalx_css (not finished)  
+- [ ] paralalx_js (not finished) 
+
