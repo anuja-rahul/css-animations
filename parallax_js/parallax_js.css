@@ -10,6 +10,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+::selection {
+    background-color: #0b372dbb;
+}
+
 .logo {
     width: 100px;
 }
@@ -111,7 +115,7 @@ main {
 .bg-img {
     position: absolute;
     width: 2800px;
-    top: calc(50% - 410px);
+    top: calc(50% - 380px);
     left: calc(50% + 10px);
     z-index: 1;
 }
@@ -135,7 +139,7 @@ main {
 .fog-6 {
     position: absolute;
     z-index: 4;
-    width: 2010px;
+    width: 2450px;
     top: calc(50% + 85px);
     left: calc(50% + 10px);
 }
@@ -151,7 +155,7 @@ main {
 .mountain-8 {
     position: absolute;
     z-index: 6;
-    width: 92px;
+    width: 920px;
     top: calc(50% + 210px);
     left: calc(50% - 220px);
 }
@@ -180,6 +184,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    pointer-events: auto !important; 
 }
 
 .text h2 {
@@ -213,7 +218,7 @@ main {
 .mountain-5 {
     position: absolute;
     z-index: 12;
-    width: 590px;
+    width: 690px;
     top: calc(50% + 280px);
     left: calc(50% + 100px);
 }
@@ -229,8 +234,8 @@ main {
 .mountain-4 {
     position: absolute;
     z-index: 14;
-    width: 900px;
-    top: calc(50% + 330px);
+    width: 1100px;
+    top: calc(50% + 350px);
     left: calc(50% - 450px);
 }
 
@@ -254,7 +259,7 @@ main {
     position: absolute;
     z-index: 17;
     width: 700px;
-    top: calc(50% + 250px);
+    top: calc(50% + 220px);
     left: calc(50% + 470px);
 }
 
@@ -271,7 +276,8 @@ main {
     z-index: 19;
     top: 0;
     right: 0;
-    width: 795px;
+    width: 995px;
+    pointer-events: none;
 }
 
 .black-shadow {
@@ -285,7 +291,7 @@ main {
 .fog-1 {
     position: absolute;
     z-index: 21;
-    width: 1700px;
+    width: 1950px;
     top: calc(100% - 355px);
     left: 50%;
 }
@@ -297,12 +303,18 @@ main {
     height: 100%;
     top: 0;
     left: 0;
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7));
+    background: radial-gradient(
+        ellipse at center, 
+        rgba(0, 0, 0, 0) 65%, 
+        rgba(0, 0, 0, 0.7)
+    );
+    pointer-events: none;
 }
 
 .parallax {
     pointer-events: none;
     transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(.2, .49, .32, .99);
 }
 
 
