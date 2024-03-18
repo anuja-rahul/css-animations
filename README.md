@@ -4,5 +4,5 @@
 
 ## Collection of css animations that can be easily implemented in your websites to make them look more visually appealing and dynamic.
 
-- [ ] paralalx_css (not finished)
-- [x] animate_on_scroll (complete)
+#### <input type="checkbox"> paralalx_css (not finished)  
+#### <input type="checkbox" checked> animate_on_scroll (complete)
