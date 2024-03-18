@@ -90,6 +90,16 @@ header ul li a.active {
   width: 100%;
 }
 
+#parallax .parallax-bg {
+  z-index: 1;
+}
+#parallax .parson {
+  z-index: 2;
+}
+#parallax .red-book {
+  z-index: 1;
+}
+
 .parallax-bg {
   --parallax-speed: 0;
 
