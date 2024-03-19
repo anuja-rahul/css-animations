@@ -291,7 +291,7 @@ main {
 .fog-1 {
     position: absolute;
     z-index: 21;
-    width: 121.56%;
+    width: 171.56%;
     top: calc(100% - 18.489%);
     left: 50%;
 }
@@ -367,6 +367,104 @@ main {
         width: initial;
         height: 233.328%;
     }
+
+    .fog-7 {
+        width: initial;
+        height: 158.32%;
+    }
+
+    .mountain-10 {
+        width: initial;
+        height: 74.32%;
+    }
+
+    .fog-6 {
+        width: initial;
+        height: 204.16%;
+    }
+
+    .mountain-9 {
+        width: initial;
+        height: 50%;
+    }
+
+    .mountain-8 {
+        width: initial;
+        height: 76.656%;
+    }
+
+    .fog-5 {
+        width: initial;
+        height: 37.48%;
+    }
+
+    .mountain-7 {
+        width: initial;
+        height: 64.992%;
+    }
+
+    .mountain-6 {
+        width: initial;
+        height: 34.16%;
+    }
+
+    .fog-4 {
+        width: initial;
+        height: 52.08%;
+    }
+
+    .mountain-5 {
+        width: initial;
+        height: 57.536%;
+    }
+
+    .fog-3 {
+        width: initial;
+        height: 133.328%;
+    }
+
+    .mountain-4 {
+        width: initial;
+        height: 91.664%;
+    }
+
+    .mountain-3 {
+        width: initial;
+        height: 37.488%;
+    }
+
+    .fog-2 {
+        width: initial;
+        height: 133.328%;
+    }
+
+    .mountain-2 {
+        width: initial;
+        height: 58.32%;
+    }
+
+    .mountain-1 {
+        width: initial;
+        height: 58.32%;
+    }
+
+    .sun-rays {
+        width: initial;
+        height: 89.912%;
+    }
+
+    .black-shadow {
+        width: initial;
+        height: 160%;
+    }
+
+    .fog-1 {
+        width: initial;
+        height: 274.496%;
+    }
+
+
+
 }
 
 @media (max-width: 520px){
