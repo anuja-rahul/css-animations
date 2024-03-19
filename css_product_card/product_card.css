@@ -1,3 +1,7 @@
+:root{
+    --primary: #22abfa
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,14 +13,219 @@ body {
     background-color: #efefef;
 }
 
-.bottle, .logo{
-    display: none;
-}
-
 .container{
     min-height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
 }
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+}
+
+.bottleBackground{
+    position: relative;
+    width: 50%;
+    height: 475px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.gradients{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.gradient{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.gradient[color="blue"]{
+    background-image: linear-gradient(45deg, #0136af, #22abfa);
+    width: 100%;
+    z-index: 0;
+}
+
+.gradient[color="brown"]{
+    background-image: linear-gradient(45deg, #853f05, #da8f17);
+}
+
+.gradient[color="green"]{
+    background-image: linear-gradient(45deg, #0a820c, #28db14);
+}
+
+.gradient[color="orange"]{
+    background-image: linear-gradient(45deg, #802510, #fa8722);
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+.share{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--primary);
+    transition: .5s;
+}
+
+.share:hover{
+    transform: scale(1.1);
+}
+
+.share i{
+    line-height: 50px;
+}
+
+.nike {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    font-size: 11rem;
+    text-transform: uppercase;
+    line-height: .9;
+    color: #fff;
+    opacity: .1;
+}
+
+.bottle{
+    position: absolute;
+    transform: rotate(-35deg);
+    width: 150%;
+    opacity: 0;
+    bottom: 0;
+    left: -75px;
+    
+}
+
+.bottle.show{
+    opacity: 1;
+}
+
+.info{
+    width: 50%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: 15px 0 35pc rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1), 
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.bottleName{
+    padding: 0 0 10px 0;
+}
+
+.bottleName div{
+    display: flex;
+    align-items: center;
+}
+
+.bottleName div .big{
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #333;
+    line-height: 1;
+}
+
+.bottleName div .new{
+    background-color: var(--primary);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.bottleName .small{
+    font-weight: 500;
+    color: #444;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.bottleName, .description, .color-container, .size-container{
+    border-bottom: 1px solid #dadada;
+}
+
+.description{
+    padding: 10px 0;
+}
+
+.title{
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.trxt{
+    color: #555;
+    font-size: 17px;
+}
+
+.color-container{
+    padding: 10px 0;
+}
+
+.colors{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 5px solid;
+}
+
+.color[color="blue"]{
+    background-color: #22abfa;
+    border-color: #22abfa;
+}
+
+.color[color="brown"]{}
+
+.color[color="green"]{}
+
+.color[color="orange"]{}
+
+/* 16:19 */
+
+
+
+
+
+
+
 
 
 
