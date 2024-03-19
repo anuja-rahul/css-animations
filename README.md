@@ -5,6 +5,7 @@
 ## A collection of css animations that can be easily implemented in your websites to make them look more visually appealing and dynamic.
 
  - [x] animate_on_scroll (complete)
+ - [ ] css product card (currently working)
  - [ ] parallax_css (not finished)  
  - [x] parallax_js (complete) 
 
