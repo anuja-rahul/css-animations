@@ -1,4 +1,25 @@
-* {
-    border-color: #000;
-    color: #fff;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppinas', sans-serif;
 }
+
+body {
+    background-color: #efefef;
+}
+
+.bottle, .logo{
+    display: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+}
+
+
+
+
+
+
