@@ -235,7 +235,7 @@ main {
     position: absolute;
     z-index: 14;
     width: 1100px;
-    top: calc(50% + 350px);
+    top: calc(50% + 370px);
     left: calc(50% - 450px);
 }
 
