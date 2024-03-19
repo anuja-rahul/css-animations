@@ -53,6 +53,7 @@ Array.from(parallax_el)
         {
             top: `${el.offsetHeight / 2 + +el.dataset.distance}px`,
             duration: 3.5,
+            ease: "power3.out",
         },
         "0"
     );
