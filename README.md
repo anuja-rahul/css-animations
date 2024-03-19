@@ -6,5 +6,5 @@
 
  - [x] animate_on_scroll (complete)
  - [ ] parallax_css (not finished)  
-- [ ] parallax_js (not finished) 
+ - [ ] parallax_js (not finished) 
 
